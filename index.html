@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Prueba Tecnica 1.1</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <div class="icons_menus">
+                <img src="./Imagenes/icons8-menú.svg" alt="icono_menu" class="icon_menu">
+                <div class="google_classroom">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+                        alt="icon_google" class="icon_google">
+                    <span class="classroom">Classroom</span>
+                </div>
+            </div>
+            <div class="icons_access">
+                <div class="plus">
+                    <img src="./Imagenes/wired-outline-49-plus-circle.svg" alt="icon_plus" class="icon_plus">
+                </div>
+                <div class="icon_puntos_g">
+                    <img src="./Imagenes/menu-de-puntos.png" alt="menu_dots" class="menu_dots">
+                    <img src="data:image/png;base64,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"
+                        alt="icon_G" class="icon_g">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pend_calen">
+            <div class="pendientes">
+                <img src="./Imagenes/to-do-list-svgrepo-com.svg" alt="to_do_icon" class="to_do_icon">
+                <span>Pendientes</span>
+            </div>
+            <div class="calendar">
+                <img src="./Imagenes/calendar.svg" alt="calendar_icon" class="icon_calendar">
+                <span>Calendar</span>
+            </div>
+        </div>
+        <div class="cards_container">
+            <div class="cards">
+                <div class="banner">
+                    <a href="./class.html">
+                        <div class="title_banner">
+                            <span class="sub_title_1">Desarrollo Web 2da Corte</span>
+                            <span class="sub_title_2">Coachs Desarrollo</span>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="tareas">
+
+                    </div>
+                    <div class="icons_cards">
+                        <img src="./Imagenes/assignment_ind_FILL0_wght400_GRAD0_opsz48.svg" alt="icono_assig"
+                            class="icon_assig">
+                        <img src="./Imagenes/folder_FILL0_wght400_GRAD0_opsz48.svg" alt="icon_folder"
+                            class="icon_folder">
+                    </div>
+            </div>
+            <div class="cards">
+                <a href="./class.html">
+                    <div class="banner">
+                        <div class="title_banner">
+                            <span class="sub_title_1">Desarrollo Web 2da Corte</span>
+                            <span class="sub_title_2">Coachs Desarrollo</span>
+                        </div>
+                    </div>
+                    <div class="tareas">
+
+                    </div>
+                    <div class="icons_cards">
+                        <img src="./Imagenes/assignment_ind_FILL0_wght400_GRAD0_opsz48.svg" alt="icono_assig"
+                            class="icon_assig">
+                        <img src="./Imagenes/folder_FILL0_wght400_GRAD0_opsz48.svg" alt="icon_folder"
+                            class="icon_folder">
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="./class.html">
+                    <div class="banner">
+                        <div class="title_banner">
+                            <span class="sub_title_1">Desarrollo Web 2da Corte</span>
+                            <span class="sub_title_2">Coachs Desarrollo</span>
+                        </div>
+                    </div>
+                    <div class="tareas">
+
+                    </div>
+                    <div class="icons_cards">
+                        <img src="./Imagenes/assignment_ind_FILL0_wght400_GRAD0_opsz48.svg" alt="icono_assig"
+                            class="icon_assig">
+                        <img src="./Imagenes/folder_FILL0_wght400_GRAD0_opsz48.svg" alt="icon_folder"
+                            class="icon_folder">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="help_comments">
+            <img src="./Imagenes/help_FILL0_wght400_GRAD0_opsz48.svg" alt="icono_ayuda" class="icon_help">
+        </div>
+    </footer>
+</body>
+
+</html>
